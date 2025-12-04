@@ -40,15 +40,18 @@ A LPF allows frequencies from 0 to higher cut of frequency, fH. At fH the gain i
 
 ---
 ## CIRCUIT DIAGRAM
-<img width="836" height="455" alt="image" src="https://github.com/user-attachments/assets/e5181151-836f-4f80-8f56-53b23ff05c74" />
+![20251204_005723](https://github.com/user-attachments/assets/ce34d081-2c7f-4a08-b0d6-1de6af16ae69)
 
+## SIMULATION CIRCUIT DIAGRAM
+![20251204_005748](https://github.com/user-attachments/assets/a7219f76-7533-4e88-8170-7b0f995a057b)
 
 ## MODEL GRAPH
-<img width="913" height="559" alt="image" src="https://github.com/user-attachments/assets/c8d28c41-6f3e-44a6-a9da-2b798cf07346" />
+![20251204_005907](https://github.com/user-attachments/assets/b4aa65c7-7476-4b68-8837-44efc5e250f5)
 
 ---
 
 ## DESIGN
+![WhatsApp Image 2025-12-04 at 15 43 38_5a79b824](https://github.com/user-attachments/assets/46f4cbd8-33b9-449a-b1e3-a337fd1dfcbc)
 
 Given: fH = 1 KHz = 1/ (2πRC) Let C = 0.1 µF, R = 1.6 KΩ
 For n = 2, α (damping factor) = 1.414, Passband gain = Ao = 3 - α =3 – 1.414 = 1.586.
@@ -75,26 +78,14 @@ PROCEDURE - (LPF):
 
 
 ## TABULATION
-
-| S.No | Frequency (Hz) | Output Voltage (V) | Gain = 20 log (Vo/Vi) (dB) |
-|------|----------------|--------------------|-----------------------------|
-| 1    |                |                    |                             |
-| 2    |                |                    |                             |
-| 3    |                |                    |                             |
-| 4    |                |                    |                             |
-| 5    |                |                    |                             |
-| 6    |                |                    |                             |
-| 7    |                |                    |                             |
-| 8    |                |                    |                             |
-| 9    |                |                    |                             |
-| 10   |                |                    |                             |
-| 11   |                |                    |                             |
-| 12   |                |                    |                             |
-		
+![20251204_005929](https://github.com/user-attachments/assets/57c81e3d-89aa-4b2f-a078-b47fd6e88c0d)
 
 ---
 
 ## OUT PUT WAVEFORM AND DISCUSSION 
+![20251204_005841](https://github.com/user-attachments/assets/61ac999b-ca94-4677-aec6-204d3ff8132f)
+![20251204_005821](https://github.com/user-attachments/assets/1dc179af-e645-47f7-9ac9-f6805b86e36d)
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/ba7cec7c-0429-46b5-80a9-22eb26eb6f9d" />
 
 ---
 
@@ -121,17 +112,18 @@ A HPF allows frequencies from 0 to higher cut of frequency, fH. At fH the gain i
 
 
 ## CIRCUIT DIAGRAM
+![20251204_010034](https://github.com/user-attachments/assets/01b18799-e69d-4f7c-b4bb-7387e61e4e38)
 
-<img width="887" height="486" alt="image" src="https://github.com/user-attachments/assets/907a1395-28d4-406f-ac09-96c4e060587e" />
-
+## SIMULATION CIRCUIT DIAGRAM
+![20251204_010052](https://github.com/user-attachments/assets/f072a03a-0e20-48f1-bf67-39f8c5533830)
 
 ## MODEL GRAPH
-
-<img width="1005" height="382" alt="image" src="https://github.com/user-attachments/assets/22925efc-4abc-4fad-90d5-94f3348c3c0b" />
+![20251204_010209](https://github.com/user-attachments/assets/b951be27-0cd8-422e-ad87-83bb7c81dffd)
 
 ---
 
 ## DESIGN
+![20251204_010256](https://github.com/user-attachments/assets/739ebc18-d7fe-4763-bb13-075004f1c310)
 
 Given: fH = 1 KHz = 1/ (2πRC) Let C = 0.1 µF, R = 1.6 KΩ
 For n = 2, α (damping factor) = 1.414, Passband gain = Ao = 3 - α =3 – 1.414 = 1.586.
@@ -158,26 +150,14 @@ PROCEDURE - ( HPF):
 
 
 ## TABULATION
-
-		
-| S.No | Frequency (Hz) | Output Voltage (V) | Gain = 20 log (Vo/Vi) (dB) |
-|------|----------------|--------------------|-----------------------------|
-| 1    |                |                    |                             |
-| 2    |                |                    |                             |
-| 3    |                |                    |                             |
-| 4    |                |                    |                             |
-| 5    |                |                    |                             |
-| 6    |                |                    |                             |
-| 7    |                |                    |                             |
-| 8    |                |                    |                             |
-| 9    |                |                    |                             |
-| 10   |                |                    |                             |
-| 11   |                |                    |                             |
-| 12   |                |                    |                             |
+![WhatsApp Image 2025-12-04 at 15 55 42_03eb83b1](https://github.com/user-attachments/assets/06fcf66a-776a-401c-b1f7-38f0d3127d9d)
 
 ---
 
 ## OUT PUT WAVEFORM AND DISCUSSION 
+![20251204_010130](https://github.com/user-attachments/assets/3cea2ce2-0ec5-457b-8cf6-3b6163cd78d7)
+![20251204_010103](https://github.com/user-attachments/assets/1c202ffe-61a6-49c3-a04b-5a2622ebfd17)
+<img width="1280" height="719" alt="image" src="https://github.com/user-attachments/assets/e9a5da2e-04d4-4327-ac34-b8a705512c1c" />
 
 ---
 
@@ -204,17 +184,18 @@ A BPF allows frequencies in between lower cut of frequency and higher cut of fre
 
 
 ## CIRCUIT DIAGRAM
+![20251204_010401](https://github.com/user-attachments/assets/2f4df266-ca44-464c-9eae-acb9c82dd339)
 
-<img width="1068" height="446" alt="image" src="https://github.com/user-attachments/assets/ee37b95a-05ea-448c-9102-111e071e41e8" />
+## SIMULATION CIRCUIT DIAGRAM
+![20251204_010415](https://github.com/user-attachments/assets/c259b058-5b21-4ed7-85cd-e805bb1299d0)
 
 ## MODEL GRAPH
-
-<img width="1055" height="537" alt="image" src="https://github.com/user-attachments/assets/f5eec55a-c00c-4eaf-a680-81ba95f66490" />
-
+![20251204_010506](https://github.com/user-attachments/assets/4abf2f54-07bd-4fd9-bca3-e55d20aad7c0)
 
 ---
 
 ## DESIGN
+![20251204_010623](https://github.com/user-attachments/assets/70ad5e02-7db6-4dee-8ee9-e4afb0e79af1)
 
 DESIGN: BAND PASS FILTER
 
@@ -244,28 +225,22 @@ PROCEDURE:BAND PASS FILTER
 
 ## TABULATION
 
-		
-| S.No | Frequency (Hz) | Output Voltage (V) | Gain = 20 log (Vo/Vi) (dB) |
-|------|----------------|--------------------|-----------------------------|
-| 1    |                |                    |                             |
-| 2    |                |                    |                             |
-| 3    |                |                    |                             |
-| 4    |                |                    |                             |
-| 5    |                |                    |                             |
-| 6    |                |                    |                             |
-| 7    |                |                    |                             |
-| 8    |                |                    |                             |
-| 9    |                |                    |                             |
-| 10   |                |                    |                             |
-| 11   |                |                    |                             |
-| 12   |                |                    |                             |
+![WhatsApp Image 2025-12-04 at 15 55 42_a3f455d5](https://github.com/user-attachments/assets/b5157102-f301-4fbe-944a-8a9a6470e6f5)
 
 ---
 
 ## OUT PUT WAVEFORM AND DISCUSSION 
 
+![20251204_010439](https://github.com/user-attachments/assets/e28fe75d-021b-4a43-b7ed-2649409566d2)
+![20251204_010423](https://github.com/user-attachments/assets/87b7e64e-2427-4593-b636-9032a55afe85)
+<img width="784" height="339" alt="image" src="https://github.com/user-attachments/assets/d3e37bd6-ecf8-49c1-b2a0-22accfd9b04f" />
+
 ---
 ##RESULT:
+
+![20251204_010538](https://github.com/user-attachments/assets/62304938-fce4-4357-9a22-c75bfd9fc416)
+![20251204_010430](https://github.com/user-attachments/assets/db249e90-5794-48f1-8399-83c5c7650f01)
+
 	Thus an Active Low pass, High pass and Band Pass Filters are designed and
 tested using op-amp IC 741.
 ---
